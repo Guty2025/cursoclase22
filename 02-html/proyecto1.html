@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estructura basica</title>
+</head>
+<body>
+  
+  <!-- Encabezado de la pagina -->
+  <header>
+    <!-- Barra de navegacion -->
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Contenido principal -->
+  <main>
+    <!-- Seccion de inicio -->
+    <section id="inicio">
+        <!-- Imagen (en nuestra computadora) -->
+  <img src="images/logo.jpg" alt="logo" id="logo">
+      <h1>Restaurant Mantel Rojo C.A.</h1>
+      <p>RIF: J-00000000-1</p>
+    <h2>Bienvenido a su Restaurant Mantel Rojo, estamos para atenderlo </h2>
+    <!-- Seccion de Menu-->
+    <section id="Menu">
+      <h2>Menu</h2>
+      <!-- Acticulo 1 -->
+      <article>
+        <header>
+          <h2>Combo 1</h2>
+        </header>
+        <img src="images/Combo1.jpg" alt="Combo1.jpg" id="Combo1.jpg">
+        <h1>Combo de Hamburguesa pollo o carne racion de papas y refresco PVP $ 5,00</h1>
+      </article>
+      <!-- Acticulo 2 -->
+      <article>
+        <header>
+          <h2>Combo 2</h2>
+        </header>
+        <img src="images/Combo2.jpg" alt="Combo2.jpg" id="Combo.jpg">
+        <h1>Combo perro caliente normal con racion de papas y refresco PVP $ 4,00</h1>
+      </article>
+    </section>
+  </main>
+  <!-- Contenido lateral (En caso de notificaciones)-->
+  <aside></aside>
+
+  <!-- Pie de pagina -->
+  
+  <p>Gracias por su visita para recibir mas informacion llene el siguiente formolario:</p>
+  
+  <footer id="contacto">
+   
+    <!-- Formulario -->
+   <form action="">
+    <!-- Nombre -->
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="name">
+
+    <!-- Apellido -->
+    <label for="lastname">Apellido</label>
+    <input type="text" name="lastname" id="lastname">
+
+    <!-- Correo electronico -->
+    <label for="email">Correo electronico</label>
+    <input type="email" name="email" id="email">
+
+    <!-- Input de seleccion -->
+    <label for="pais">Pais</label>
+    <select name="pais" id="pais">
+      <option value="" selected disabled>Seleccione un pais</option>
+      <option value="+58">Venezuela</option>
+      <option value="">Colombia</option>
+      <option value="" >Italia</option>
+      <option value="">Argentina</option>
+    </select>
+
+        <!-- Textarea -->
+
+    
+        <!-- Input oculto -->
+        <input type="hidden" name="oculto" value="losdatos">
+
+    <!-- Boton para enviar el formulario -->
+    <input type="submit" value="Enviar datos">
+  </form>
+
+
+    <P>Aqui le alicitamos nuestra redes sociales</P>
+    
+    <ul>
+      <li><a href="">Instagram</a></li>
+      <li><a href="">Facebook</a></li>
+    </ul>
+    <p>La empresa se reserva todos los derechos de esta pagina</p>
+  </footer>
+</body>
+</html>
